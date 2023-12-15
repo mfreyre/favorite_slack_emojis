@@ -7,5 +7,5 @@ def replace_underscores_with_hyphens(directory):
             os.rename(os.path.join(directory, filename), os.path.join(directory, new_filename))
 
 # Replace 'your_directory_path' with the path of your directory
-directory_path = 'gif_emojis/unsorted'
+directory_path = 'gif_emojis/deal_with_it'
 replace_underscores_with_hyphens(directory_path)
